@@ -1,0 +1,32 @@
+:root{
+    --bg-color: #FFFF;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    gap: 6px;
+}
+
+input{
+    width: 260px;
+    height: 200px;
+}
+
+
+
+body{
+    background-color: var(--bg-color);
+}
+#botao{
+    height: 100px;
+}
